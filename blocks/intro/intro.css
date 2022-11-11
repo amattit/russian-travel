@@ -8,6 +8,7 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
+  max-width: 690px;
   margin: 0;
 }
 
@@ -16,6 +17,7 @@
   line-height: 163%;
   margin: 0;
   padding: 40px 0 0 0;
+  max-width: 690px;
 }
 
 .intro__list {
