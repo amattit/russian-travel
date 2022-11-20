@@ -15,10 +15,3 @@
     line-height: 44px;
   }
 }
-
-@media (max-width: 320px) {
-  .lead__title {
-    min-width: 288px;
-    max-width: 720px;
-  }
-}
