@@ -1,8 +1,6 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 83px 0 0 0;
+  padding-top: 83px;
+  padding-left: 8px;
   max-width: 690px;
 }
 
@@ -11,7 +9,7 @@
     margin-left: 0;
     padding-top: 82px;
     padding-left: 48px;
-    min-width: clamp(288px, 93.7%, 690px);
+    min-width: clamp(288px, 94%, 690px);
   }
 }
 
@@ -20,7 +18,7 @@
     margin-left: 15px;
     padding-top: 80px;
     padding-left: 10px;
-    min-width: clamp(288px, 93.7%, 720px);
+    min-width: clamp(288px, 94%, 720px);
   }
 }
 
