@@ -2,7 +2,6 @@
   grid-area: image;
   max-width: 460px;
   width: 100%;
-  order: 3;
 }
 
 @media (max-width: 1024px) {
@@ -17,12 +16,6 @@
   }
 }
 
-@media (max-width: 730px) {
-  .places__image {
-    max-width: 320px;
-  }
-}
-
 @media (max-width: 600px) {
   .places__image {
     margin-top: 11px;
@@ -32,7 +25,7 @@
 
 @media (max-width: 320px) {
   .places__image {
-    margin-top: 11px;
+    margin-top: 12px;
     min-width: 100%;
   }
 }
