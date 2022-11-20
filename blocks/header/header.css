@@ -2,6 +2,26 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  width: clamp(288px, 93.7%, 1184px);
+  max-width: 1184px;
   padding-top: 28px;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    padding-top: 27px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    padding-top: 8px;
+    max-width: 288px;
+  }
 }
