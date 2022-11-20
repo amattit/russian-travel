@@ -1,0 +1,33 @@
+.lead__image {
+  display: block;
+  margin: 64px auto 0;
+  object-fit: cover;
+  max-width: 1184px;
+  padding: 0;
+}
+
+@media (max-width: 1279px) {
+  .lead__image {
+    margin-top: 56px;
+    align-self: center;
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 970px) {
+  .lead__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__image {
+    margin-top: 40px;
+  }
+}

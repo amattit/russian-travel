@@ -1,10 +1,10 @@
 .page {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   background: #2a2c2f;
-  max-width: 1280px;
-  color: #fff;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  margin: 0 auto;
+  min-width: 200px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
