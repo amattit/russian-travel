@@ -5,13 +5,13 @@
 
 @media (max-width:768px) {
   .places {
-    width: clamp(500px, 95%, 720px);
+    width: clamp(500px, 100%, 720px);
   }
 }
 
 @media (max-width:600px) {
   .places {
-    width: clamp(320px, 95%, 580px);
+    width: clamp(320px, 100%, 580px);
   }
 }
 

@@ -22,14 +22,6 @@
   }
 }
 
-@media (max-width: 600px) {
-  .places__image {
-    order: 3;
-    margin-top: 11px;
-    max-width: 100%;
-  }
-}
-
 @media (max-width: 320px) {
   .places__image {
     min-width: 100%;
