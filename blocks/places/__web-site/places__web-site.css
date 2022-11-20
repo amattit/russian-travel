@@ -4,3 +4,15 @@
   grid-area: website;
   align-self:flex-end ;
 }
+
+@media (max-width:600px) {
+  .places__website {
+    align-self: start;
+  }
+}
+
+@media (max-width:456px) {
+  .places__website {
+    margin-left: 16px;
+  }
+}

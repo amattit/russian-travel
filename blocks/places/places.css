@@ -17,12 +17,6 @@
 
 @media (max-width:600px) {
   .places {
-    width: 99%;
-  }
-}
-
-@media (max-width:320px) {
-  .places {
     width: 100%;
   }
 }
