@@ -1,0 +1,22 @@
+.places__paragraph-container {
+  grid-area: paragraph;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  order: 4;
+  gap: 27px;
+}
+
+@media (max-width:768px) {
+  .places__paragraph-container {
+    max-width: 720px;
+    gap: 24px;
+  }
+}
+
+@media (max-width:320px) {
+  .places__paragraph-container {
+    max-width: 720px;
+    gap: 12px;
+  }
+}

@@ -1,0 +1,37 @@
+.places__image {
+  grid-area: image;
+  max-width: 460px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .places__image {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+  .places__image {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 730px) {
+  .places__image {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .places__image {
+    order: 3;
+    margin-top: 11px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__image {
+    min-width: 100%;
+  }
+}
