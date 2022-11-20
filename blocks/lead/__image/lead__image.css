@@ -2,11 +2,11 @@
   display: block;
   margin: 64px auto 0;
   object-fit: cover;
-  max-width: 1184px;
+  max-width: 984px;
   padding: 0;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1024px) {
   .lead__image {
     margin-top: 56px;
     align-self: center;
