@@ -1,0 +1,10 @@
+.header__links {
+  margin-bottom: 6px;
+  align-self: flex-end;
+}
+
+@media (max-width:320px) {
+  .header__links {
+    margin-bottom: 13px;
+  }
+}
