@@ -26,14 +26,3 @@
     width: 100%;
   }
 }
-
-.places__paragraph {
-  grid-area: paragraph;
-  margin: 0;
-  justify-self: start;
-}
-
-.places__paragraph:last-of-type {
-  justify-self: end;
-  margin-top: 20px;
-}
