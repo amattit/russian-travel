@@ -4,8 +4,7 @@
   text-align: right;
   color: #fff;
   text-decoration: none;
-  margin: 0;
-  margin-left: 16px;
+  margin: 0 0 0 16px;
 }
 
 .header__lang-link:first-child {
