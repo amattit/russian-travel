@@ -11,12 +11,6 @@
 
 @media (max-width:600px) {
   .places {
-    width: clamp(320px, 100%, 580px);
-  }
-}
-
-@media (max-width:600px) {
-  .places {
     width: 100%;
   }
 }
