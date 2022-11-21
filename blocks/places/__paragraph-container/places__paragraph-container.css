@@ -15,7 +15,6 @@
 
 @media (max-width:320px) {
   .places__paragraph-container {
-    max-width: 720px;
     gap: 12px;
   }
 }

@@ -33,7 +33,6 @@
 @media (max-width: 768px) {
   .places__place {
     width: 100%;
-    display: grid;
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: minmax(92px, max-content);
     column-gap: 28px;
@@ -43,8 +42,6 @@
 
   .places__place:first-child {
     margin-top: 90px;
-    column-gap: 28px;
-    row-gap: 45px;
   }
 
   .places__place:last-child {
